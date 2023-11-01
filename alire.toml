@@ -1,0 +1,13 @@
+name = "esp32_c6_hal"
+description = "Ada support for the ESP32-C6 CPU"
+version = "0.1.0-dev"
+
+authors = ["Fernando Oleo Blanco"]
+maintainers = ["Fernando Oleo Blanco <irvise@irvise.xyz>"]
+maintainers-logins = ["Irvise"]
+licenses = "MIT"
+website = ""
+tags = ["hal", "esp32", "riscv"]
+
+[[depends-on]]
+gnat_riscv_elf = "*"
