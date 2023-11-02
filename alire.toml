@@ -11,3 +11,6 @@ tags = ["hal", "esp32", "riscv"]
 
 [[depends-on]]
 gnat_riscv_elf = "*"
+
+[[depends-on]]
+hal = "~0.3.0"
